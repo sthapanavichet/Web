@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+       body {
+           border:3px dashed blue;
+       }
+       main {
+           border:3px solid darkorange;
+       }
+       #fixed {
+           width:200px;
+           background-color: yellow;
+       }
+       #percentage {
+           /* % = percent of the parent container width */
+           width:50%;
+           background-color: cyan;
+       }
+       #viewport {
+           /* vw = viewport width = percentage of the width of the browser */
+           width:50vw;
+           background-color: pink;
+       }
+   </style>
+</head>
+<body>
+   <main>
+       <p id="fixed">Paragraph 1</p>
+       <p id="percentage">Paragraph 2</p>
+       <p id="viewport">Paragraph 3</p>
+   </main>
+</body>
+</html>
